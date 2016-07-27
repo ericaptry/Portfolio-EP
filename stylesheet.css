@@ -1,7 +1,7 @@
 body {
     font-size: 1em;
     line-height: 1.4;
-    background-color: #EADFE7;
+    background-color: #bfd8d2;
     margin: 0;
 }
 
@@ -32,8 +32,11 @@ body, html {
 }
 
 section#intro{
-margin-top: 15px;
-height: 720px;
+margin-top: 2px;
+height: 740px;
+background-image: url("images/background-img.png");
+background-repeat: repeat;
+ 
 
 }
 
@@ -245,7 +248,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, nav-bar, se
 
 	#nav-bar li a {
     	display: block;
-    	color: #fdb59c;
+    	color: #fedcd2;
     	text-align: center;
     	padding: 20px 35px;
     	text-decoration: none;
@@ -274,7 +277,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, nav-bar, se
 	#second-nav-bar{
   		display: block;
     	height: 40px;
-    	background-color: #fdb59c;
+    	background-color: #fedcd2;
     	border-radius: 0px;
     	left: 0px;
     	right: 0px;
@@ -297,7 +300,7 @@ img.logo {
 #portfolio-page{
 	border-top: 1px solid #b3b4b4;
 	height: 1000px;
-	background-color: #fdb59c;
+	background-color: #fedcd2;
 	position: relative;
 	}
 
@@ -363,6 +366,18 @@ img.logo {
 	float:left;
 
 	}
+ #designs{
+ 	display: block;
+	position: relative;
+	margin-top: 360px;
+ }
+ #designs img{
+	
+	padding: 3em;
+	margin: 0 auto;
+	
+	
+}
     
  footer{
  	padding: 30px 0px;
