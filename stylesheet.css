@@ -7,7 +7,7 @@ body {
 
 
 body, html {
-    font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:300; font-stretch:normal;
+    font-family: 'Helvetica Neue', serif;
     font-weight: 100;
     color: #757575;
 }
@@ -21,6 +21,7 @@ body, html {
 
 
 #intro .section-inner {
+	display: inline-block;
     margin: 0 auto;
     position: relative;
     -webkit-transition: width .5s;
@@ -41,13 +42,14 @@ background-repeat: repeat;
 }
 
 .section-inner{
-width: 1200px;
+	
+	width: 1200px;
 
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
-    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+    font-family: 'Helvetica Neue', serif;
     font-weight: 100;
 }
 
@@ -142,8 +144,9 @@ p, pre {
 
 #intro #headline strong#hi {
     position: relative;
-    color: #fff;
-    font-weight: normal;
+    color: #757575;
+    font-family:'Helvetica Neue', serif;
+    font-weight: 100;
     font-size: 2.0em;
     line-height: .5;
     z-index: 10;
@@ -248,24 +251,24 @@ article, aside, details, figcaption, figure, footer, header, hgroup, nav-bar, se
 
 	#nav-bar li a {
     	display: block;
-    	color: #fedcd2;
+    	color: #df744a;
     	text-align: center;
     	padding: 20px 35px;
     	text-decoration: none;
-    	font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
-		font-weight: 100;
+        font-family:'Helvetica Neue', serif;		
+        font-weight: 100;
 		font-size: 12px;
 		}
 		
 		#nav-bar li a:hover:not(.active) {
-		color: #C6C4C7;
-    	border-bottom: #C6C4C7 solid 3px;
+		color: #757575;
+    	border-bottom: #757575 solid 3px;
     	
 		}
 
 		#nav-bar .active {
-		color: #C6C4C7;
-   		border-bottom: #C6C4C7 solid 3px;
+		color: #757575;
+   		border-bottom: #757575 solid 3px;
    	
 		}
 	#nav-bar #logo{
