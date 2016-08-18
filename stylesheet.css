@@ -1,14 +1,15 @@
 body {
     font-size: 1em;
     line-height: 1.4;
-    background-color: #bfd8d2;
+    /*background-color: #bfd8d2;*/
     margin: 0;
 }
 
 
 body, html {
-    font-family: 'Helvetica Neue', serif;
+    font-family: 'Josefin Sans';
     font-weight: 100;
+    font-style: thin;
     color: #757575;
 }
 
@@ -33,11 +34,12 @@ body, html {
 }
 
 section#intro{
-margin-top: 2px;
-height: 740px;
-background-image: url("images/background-img.png");
-background-repeat: repeat;
- 
+    margin-top: 0px;
+    height: 740px;
+    background-image: url("images/bg-field.png");
+    background-size: 1600px 780px;
+    background-position: center;
+    background-repeat: no-repeat;
 
 }
 
@@ -48,9 +50,9 @@ background-repeat: repeat;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-weight: normal;
-    font-family: 'Helvetica Neue', serif;
+    font-family: 'Josefin Sans';
     font-weight: 100;
+    font-style: Thin;
 }
 
 
@@ -137,7 +139,7 @@ padding: 6px;
 width: 50%;
 float: left;*/
 
-}
+
 p, pre {
     margin: 1em 0;
 }
@@ -145,8 +147,9 @@ p, pre {
 #intro #headline strong#hi {
     position: relative;
     color: #757575;
-    font-family:'Helvetica Neue', serif;
+    font-family: 'Josefin Sans';
     font-weight: 100;
+    font-style: Thin;
     font-size: 2.0em;
     line-height: .5;
     z-index: 10;
@@ -155,7 +158,7 @@ p, pre {
 #intro #headline2 strong#hi {
     position: relative;
     color: #fff;
-    font-weight: normal;
+    font-weight: 100;
     font-size: 2.0em;
     line-height: .5;
     z-index: 10;
@@ -164,7 +167,7 @@ p, pre {
 #intro #headline3 strong#hi {
     position: relative;
     color: #fff;
-    font-weight: normal;
+    font-weight: 100;
     font-size: 2.0em;
     line-height: .5;
     z-index: 10;
@@ -181,7 +184,7 @@ p #headline  {
 
 #intro #headline span {
     background: #eedab3;
-    color: #fff;
+    /*color: #fff;*/
     
 }
 #intro #headline2 span {
@@ -253,11 +256,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, nav-bar, se
     	display: block;
     	color: #df744a;
     	text-align: center;
-    	padding: 20px 35px;
+    	padding: 18.3px 35px;
     	text-decoration: none;
-        font-family:'Helvetica Neue', serif;		
+        font-family: 'Josefin Sans';
         font-weight: 100;
-		font-size: 12px;
+        font-style: thin;
+		font-size: 14px;
 		}
 		
 		#nav-bar li a:hover:not(.active) {
@@ -272,8 +276,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, nav-bar, se
    	
 		}
 	#nav-bar #logo{
-		max-width:10em;
-		max-height:8em;
+		max-width:5em;
+		max-height:2em;
 	}
 
 		
