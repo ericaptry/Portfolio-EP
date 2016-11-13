@@ -25,19 +25,16 @@ body, html {
 	display: inline-block;
     margin: 0 auto;
     position: relative;
-    -webkit-transition: width .5s;
-    -moz-transition: width .5s;
-    -ms-transition: width .5s;
-    -o-transition: width .5s;
-    transition: width .5s;
     padding-bottom: 60px;
+    padding-top: 80px;
+    padding-left: 231px;
 }
 
 section#intro{
     margin-top: 0px;
-    height: 740px;
+    height: 820px;
     background-image: url("images/bg-field.png");
-    background-size: 1600px 780px;
+    background-size: auto auto;
     background-position: center;
     background-repeat: no-repeat;
 
@@ -45,7 +42,8 @@ section#intro{
 
 .section-inner{
 	
-	width: 1200px;
+	width: 900px;
+	
 
 }
 
@@ -73,6 +71,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.8em;
     line-height: 1.23;
     margin-top: 2em;
+    width: 700px;
 }
 #intro #headline  {
     line-height: 1.25;
@@ -330,6 +329,7 @@ img.logo {
 	border-top: 1px solid #b3b4b4;
 	height: 1000px;
 	position: relative;
+	background-color: #bfd8d2;
 
 } 
 
@@ -350,6 +350,7 @@ img.logo {
 	border-top: 1px solid #b3b4b4;
 	height: 1000px;
 	position: relative;
+	background-color: #bfd8d2;
 
 } 
 #section-about{
