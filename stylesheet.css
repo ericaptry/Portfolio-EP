@@ -15,24 +15,31 @@ body, html {
 
 
 #main {
-    position: relative;
-    overflow: hidden;
+    width:100%;
+    /*position: relative;
+    overflow: hidden;*/
 
 }
 
 
 #intro .section-inner {
-	display: inline-block;
-    margin: 0 auto;
+	/*display: inline-block;*/
+	max-width: 900px;
+	margin:auto;
+	padding: 40px;
+	/*margin-top: 0;
+    height: 1000px;*/
+   /* margin: 0 auto;
     position: relative;
     padding-bottom: 60px;
     padding-top: 80px;
-    padding-left: 231px;
+    padding-left: 231px;*/
 }
 
 section#intro{
-    margin-top: 0px;
-    height: 820px;
+    
+    /*margin: auto;*/
+    height: 1000px;
     background-image: url("images/bg-field.png");
     background-size: auto auto;
     background-position: center;
@@ -42,7 +49,8 @@ section#intro{
 
 .section-inner{
 	
-	width: 900px;
+	/*max-width: 900px;
+	margin:auto;*/
 	
 
 }
@@ -60,9 +68,9 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.21;
 }
 #intro #headline  {
-    -webkit-opacity: 0;
-    -moz-opacity: 0;
-    opacity: 0;
+   /* -webkit-opacity: 0.5;
+    -moz-opacity: 0.5;
+    opacity: 0.5;*/
     text-align: center;
     font-size: 1.8em;
     line-height: 1.22;
@@ -71,7 +79,8 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.8em;
     line-height: 1.23;
     margin-top: 2em;
-    width: 700px;
+    max-width: 700px;
+    margin: auto;
 }
 #intro #headline  {
     line-height: 1.25;
@@ -87,9 +96,9 @@ padding: 6px;
     line-height: 1.21;
 }
 #intro #headline2  {
-    -webkit-opacity: 0;
+   /* -webkit-opacity: 0;
     -moz-opacity: 0;
-    opacity: 0;
+    opacity: 0;*/
     text-align: center;
     font-size: 1.8em;
     line-height: 1.22;
@@ -113,9 +122,9 @@ padding: 6px;
     line-height: 1.21;
 }
 #intro #headline3  {
-    -webkit-opacity: 0;
+   /* -webkit-opacity: 0;
     -moz-opacity: 0;
-    opacity: 0;
+    opacity: 0;*/
     text-align: center;
     font-size: 1.8em;
     line-height: 1.22;
@@ -177,8 +186,8 @@ strong {
 }
 p #headline  {
 	
-   opacity: 0.5;
-    filter: alpha(opacity=50);
+  /* opacity: 0.5;
+    filter: alpha(opacity=50);*/
 }
 
 #intro #headline span {
@@ -313,7 +322,8 @@ img.logo {
 #section-portfolio{
 
 	padding: 50px;
-	width: 1200px;
+	max-width: 1200px;
+	margin:auto;
 
 }
 
@@ -336,7 +346,8 @@ img.logo {
 #section-work{
 
 	padding: 50px;
-	width: 1200px;
+    max-width: 1200px;
+	margin:auto;
 
 }
     
@@ -356,7 +367,8 @@ img.logo {
 #section-about{
 
 	padding: 50px;
-	width: 1200px;
+	max-width: 1200px;
+	margin:auto;
 
 }
 
