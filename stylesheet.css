@@ -1,7 +1,6 @@
 body {
     font-size: 1em;
     line-height: 1.4;
-    /*background-color: #bfd8d2;*/
     margin: 0;
 }
 
@@ -9,36 +8,35 @@ body {
 body, html {
     font-family: 'Josefin Sans';
     font-weight: 100;
-    font-style: thin;
+    font-style: normal;
     color: #757575;
 }
 
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Josefin Sans Light'), local('JosefinSans-Light'), url(https://fonts.gstatic.com/s/josefinsans/v9/C6HYlRF50SGJq1XyXj04zxLwFvNxpkIoVzlXSkPSYkA.woff2) format('woff2');
+}
 
 #main {
     width:100%;
-    /*position: relative;
-    overflow: hidden;*/
+ 
 
 }
 
 
 #intro .section-inner {
-	/*display: inline-block;*/
+	
 	max-width: 900px;
 	margin:auto;
 	padding: 40px;
-	/*margin-top: 0;
-    height: 1000px;*/
-   /* margin: 0 auto;
-    position: relative;
-    padding-bottom: 60px;
-    padding-top: 80px;
-    padding-left: 231px;*/
+
 }
 
 section#intro{
     
-    /*margin: auto;*/
+   
     height: 1000px;
     background-image: url("images/bg-field.png");
     background-size: auto auto;
@@ -47,18 +45,12 @@ section#intro{
 
 }
 
-.section-inner{
-	
-	/*max-width: 900px;
-	margin:auto;*/
-	
 
-}
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Josefin Sans';
     font-weight: 100;
-    font-style: Thin;
+    font-style: normal;
 }
 
 
@@ -68,9 +60,6 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.21;
 }
 #intro #headline  {
-   /* -webkit-opacity: 0.5;
-    -moz-opacity: 0.5;
-    opacity: 0.5;*/
     text-align: center;
     font-size: 1.8em;
     line-height: 1.22;
@@ -96,9 +85,6 @@ padding: 6px;
     line-height: 1.21;
 }
 #intro #headline2  {
-   /* -webkit-opacity: 0;
-    -moz-opacity: 0;
-    opacity: 0;*/
     text-align: center;
     font-size: 1.8em;
     line-height: 1.22;
@@ -122,9 +108,6 @@ padding: 6px;
     line-height: 1.21;
 }
 #intro #headline3  {
-   /* -webkit-opacity: 0;
-    -moz-opacity: 0;
-    opacity: 0;*/
     text-align: center;
     font-size: 1.8em;
     line-height: 1.22;
@@ -143,9 +126,6 @@ padding: 6px;
 padding: 6px;
 }
 
-/*#intro #headline {
-width: 50%;
-float: left;*/
 
 
 p, pre {
@@ -184,15 +164,12 @@ p, pre {
 strong {
     font-weight: bold;
 }
-p #headline  {
-	
-  /* opacity: 0.5;
-    filter: alpha(opacity=50);*/
-}
+
+
 
 #intro #headline span {
     background: #eedab3;
-    /*color: #fff;*/
+    
     
 }
 #intro #headline2 span {
@@ -268,7 +245,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, nav-bar, se
     	text-decoration: none;
         font-family: 'Josefin Sans';
         font-weight: 100;
-        font-style: thin;
+        font-style: normal;
 		font-size: 14px;
 		}
 		
