@@ -37,7 +37,7 @@ body, html {
 section#intro{
     
    
-    height: 1000px;
+    height: 700px;
     background-image: url("images/bg-field.png");
     background-size: auto auto;
     background-position: center;
@@ -67,7 +67,6 @@ h1, h2, h3, h4, h5, h6 {
 #intro #headline  {
     font-size: 1.8em;
     line-height: 1.23;
-    margin-top: 2em;
     max-width: 700px;
     margin: auto;
 }
@@ -77,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro #headline  {
-padding: 6px;
+    padding: 6px;
 }
 
 #intro #headline2  {
@@ -100,7 +99,7 @@ padding: 6px;
 }
 
 #intro #headline2  {
-padding: 6px;
+    padding: 3px;
 }
 
 #intro #headline3  {
@@ -123,7 +122,7 @@ padding: 6px;
 }
 
 #intro #headline3  {
-padding: 6px;
+    padding: 3px;
 }
 
 
@@ -145,7 +144,6 @@ p, pre {
 
 #intro #headline2 strong#hi {
     position: relative;
-    color: #fff;
     font-weight: 100;
     font-size: 2.0em;
     line-height: .5;
@@ -154,7 +152,6 @@ p, pre {
 
 #intro #headline3 strong#hi {
     position: relative;
-    color: #fff;
     font-weight: 100;
     font-size: 2.0em;
     line-height: .5;
@@ -204,7 +201,7 @@ strong {
     display: none;
 }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, nav-bar, section, summary {
+footer, header, hgroup, nav-bar, section, summary {
     display: block;
 }
 
